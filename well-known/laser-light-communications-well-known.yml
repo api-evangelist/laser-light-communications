@@ -1,0 +1,57 @@
+generated: '2026-08-23'
+method: probed
+source: live HTTPS probes of /.well-known/* on the laserlightcomms.com hosts
+note: >-
+  No /.well-known/ document is served. Every path under /.well-known/ on both the apex and the
+  www host returns an origin 403 (nginx "403 Forbidden", 555 bytes) rather than a 404, which is a
+  blanket deny on the dotted directory, not a per-document answer. NO WellKnown or SecurityTxt
+  pointer is emitted in apis.yml because nothing returned a 200 carrying a real document. The one
+  machine-readable consent surface this company does serve is /robots.txt (HTTP 200), which
+  carries a Cloudflare-managed Content-Signal header — "search=yes,ai-train=no,use=reference" —
+  plus explicit Disallow rules for Amazonbot, Applebot-Extended, Bytespider, CCBot, ClaudeBot,
+  Google-Extended, GPTBot and meta-externalagent. That is recorded as a ContentSignal pointer,
+  not as a well-known document.
+hosts:
+- host: www.laserlightcomms.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 403
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog
+    status: 403
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 403
+    file: null
+  - path: /.well-known/agent.json
+    status: 403
+    file: null
+- host: laserlightcomms.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 403
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog
+    status: 403
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    file: null

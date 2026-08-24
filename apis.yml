@@ -1,17 +1,40 @@
 aid: laser-light-communications
 name: Laser Light Communications
-description: 'Laser Light Communications is a company surfaced via the API Evangelist harvest backlog
-  (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Laser Light Communications Inc. is a Reston, Virginia optical networking
+  company, founded in 2012 and led by CEO Robert Brumley, that is assembling a "Multi-Domain
+  Global Data Platform" — a carrier-neutral convergence of greenfield terrestrial and
+  subsea optical fiber, carrier-neutral data centers and edge facilities, cable landing
+  stations, and a planned 12-satellite medium-Earth-orbit free-space optical constellation
+  branded HALO (All-Optical Hybrid Global Network). Its commercial products are Data
+  Transport as a Service and Network on Demand, sold to service providers, hyperscalers,
+  content distribution networks, financial institutions, governments and Fortune 1000
+  enterprises as a subscription/on-demand capacity model, orchestrated by an AI-driven
+  network operating system across a stated 300+ points of presence and run from a 24x7
+  network operations center. Affiliates include Laser Light Global, Ltd. (London) and
+  The HALO Network Company PTY Ltd. (Melbourne). Laser Light sells capacity and network
+  services under contract; as of August 2026 it publishes no public developer program,
+  API documentation, or machine-readable API contract, and laserlightcomms.com is a
+  four-page WordPress marketing and investor site.'
 url: https://raw.githubusercontent.com/api-evangelist/laser-light-communications/refs/heads/main/apis.yml
+image: https://www.laserlightcomms.com/wp-content/uploads/2025/04/cropped-LaserLight_Logo_Dark-Dark.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
-specificationVersion: '0.20'
+x-tier: profile
+x-tier-reason: identity-enriched-no-api-surface
+specificationVersion: '0.23'
 created: '2026-08-23'
 modified: '2026-08-23'
 tags:
 - Company
+- Telecommunications
+- Networking
+- Optical Networking
+- Satellite
+- Subsea Cable
+- Data Centers
+- Connectivity
+- Infrastructure
+- Space
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +43,69 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://www.laserlightcomms.com/
+- type: Blog
+  url: https://www.laserlightcomms.com/category/press-release/
+- type: BlogRSS
+  url: https://www.laserlightcomms.com/feed/
+- type: Insights
+  url: https://www.laserlightcomms.com/insights/
+- type: Support
+  url: https://www.laserlightcomms.com/#contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/laser-light-communications/
+- type: Twitter
+  url: https://x.com/laserlightcomms
+- type: Facebook
+  url: https://www.facebook.com/LaserLightCompanies/
+- type: SecondaryMarket
   url: https://forgeglobal.com/laser-light-communications_stock/
+- type: ContentSignal
+  url: https://www.laserlightcomms.com/robots.txt
+- type: LLMsTxt
+  url: llms/laser-light-communications-llms.txt
+- type: DomainSecurity
+  url: security/laser-light-communications-domain-security.yml
+- type: Plans
+  url: plans/laser-light-communications-plans-pricing.yml
+x-enrichment:
+  date: '2026-08-23'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Laser Light Communications sells wholesale optical capacity under negotiated
+    enterprise contract and its entire public surface is a four-page WordPress marketing
+    and investor site — the word "API" appears nowhere on it, no api./developer./docs./portal.
+    hostname resolves in DNS, there is no GitHub organization, and the only machine-readable
+    JSON on the domain is the marketing site's stock WordPress core REST API at /wp-json/.
+  evidence:
+  - url: https://www.laserlightcomms.com/
+    status: 200
+  - url: https://www.laserlightcomms.com/openapi.json
+    status: 404
+  - url: https://www.laserlightcomms.com/swagger.json
+    status: 404
+  - url: https://www.laserlightcomms.com/api-docs
+    status: 404
+  - url: https://www.laserlightcomms.com/graphql
+    status: 404
+  - url: https://www.laserlightcomms.com/mcp
+    status: 404
+  - url: https://www.laserlightcomms.com/llms.txt
+    status: 404
+  - url: https://www.laserlightcomms.com/.well-known/agent-card.json
+    status: 403
+  - url: https://www.laserlightcomms.com/.well-known/security.txt
+    status: 403
+  - url: https://www.laserlightcomms.com/robots.txt
+    status: 200
+  - url: https://www.laserlightcomms.com/wp-json/
+    status: 200
+  - url: https://www.laserlightcomms.com/page-sitemap.xml
+    status: 200
+  - url: https://api.github.com/orgs/laserlightcomms
+    status: 404
+  checked: '2026-08-23'
