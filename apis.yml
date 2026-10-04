@@ -54,7 +54,7 @@ tags:
 - Optical Networking
 - Satellite
 - Subsea Cable
-- Data-Center
+- Data Center
 - Connectivity
 - Infrastructure
 - Space
@@ -69,6 +69,7 @@ tags_raw:
 - Connectivity
 - Infrastructure
 - Space
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
