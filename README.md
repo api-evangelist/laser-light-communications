@@ -64,5 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Laser Light Communications is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/laser-light-communications_stock/
+Laser Light Communications Inc. is a Reston, Virginia optical networking company, founded in 2012 and led by CEO Robert Brumley, that is assembling a "Multi-Domain Global Data Platform" — a carrier-neutral convergence of greenfield terrestrial and subsea optical fiber, carrier-neutral data centers and edge facilities, cable landing stations, and a planned 12-satellite medium-Earth-orbit free-space optical constellation branded HALO (All-Optical Hybrid Global Network). Its commercial products are Data Transport as a Service and Network on Demand, sold to service providers, hyperscalers, content distribution networks, financial institutions, governments and Fortune 1000 enterprises as a subscription/on-demand capacity model, orchestrated by an AI-driven network operating system across a stated 300+ points of presence and run from a 24x7 network operations center. Affiliates include Laser Light Global, Ltd. (London) and The HALO Network Company PTY Ltd. (Melbourne). Laser Light sells capacity and network services under contract; as of August 2026 it publishes no public developer program, API documentation, or machine-readable API contract, and laserlightcomms.com is a four-page WordPress marketing and investor site.
+
+**Areas:** Company · Telecommunications · Networking · Optical Networking · Satellite · Subsea Cable · Data Center · Connectivity · Infrastructure · Space
+
+## Laser Light Communications on APIs.io
+
+Everything profiled for Laser Light Communications is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/laser-light-communications/](https://apis.io/providers/laser-light-communications/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Laser Light Communications Domain Security](https://apis.io/security/laser-light-communications/laser-light-communications-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Laser Light Communications Plans Pricing](https://apis.io/plans/laser-light-communications/laser-light-communications-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.laserlightcomms.com/)
+- [Support](https://www.laserlightcomms.com/#contact)
+- [Blog](https://www.laserlightcomms.com/category/press-release/)
+
+## API Evangelist rating
+
+**Kin Score 3.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 0.0 |
+
+**Agent readiness 2.2** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | yes |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.0** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/laser-light-communications/](https://apis.io/providers/laser-light-communications/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Laser Light Communications: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/laser-light-communications/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
